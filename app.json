@@ -4,5 +4,6 @@
     "scripts": {
       "postdeploy": "echo sdadsdad"
     }
+    }
   }
 }
