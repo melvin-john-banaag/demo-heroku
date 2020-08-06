@@ -1,9 +1,9 @@
 {
-	"environments": {
+  "environments": {
     "test": {
-    "scripts": {
-      "postdeploy": "echo sdadsdad"
-    }
+      "addons":[
+        "heroku-redis:in-dyno"
+      ]
     }
   }
 }
