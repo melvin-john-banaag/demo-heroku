@@ -1,9 +1,10 @@
 {
   "environments": {
     "test": {
-      "addons":[
-        "heroku-redis:in-dyno"
-      ]
+      "scripts": {
+        "test-setup": "gem install rubocop",
+        "test": "rubocop ."
+      }
     }
   }
 }
